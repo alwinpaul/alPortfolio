@@ -16,13 +16,13 @@ function AboutSection() {
                 </div>
                 <div className='w-7/12'>
                     <p className="mb-6">
-                        I'm passionate about leveraging JavaScript technologies such as React, Vue, and Angular to bring digital visions to life.
+                        I&apos;m passionate about leveraging JavaScript technologies such as React, Vue, and Angular to bring digital visions to life.
                     </p>
                     <p className="mb-6">
-                        For me, coding isn't just a task; it's a medium for creative expression. The ever-evolving landscape of technology fuels my curiosity, driving me to constantly push boundaries and find innovative solutions to intricate challenges.
+                        For me, coding isn&apos;t just a task; it&apos;s a medium for creative expression. The ever-evolving landscape of technology fuels my curiosity, driving me to constantly push boundaries and find innovative solutions to intricate challenges.
                     </p>
                     <p className="mb-6">
-                        During my downtime, I draw inspiration from fellow developers' work and dive into experimenting with new technologies.
+                        During my downtime, I draw inspiration from fellow developers&apos; work and dive into experimenting with new technologies.
                     </p>
                     <p className="mb-6">
                         Feel free to reach out and say hello at:{" "}
