@@ -12,7 +12,7 @@ export default function SkillCard({ image, caption }) {
         objectFit="contain"
       />
 
-      <p>{caption}</p>
+      <p className="text-slate-200 text-centre">{caption}</p>
     </div>
   );
 }

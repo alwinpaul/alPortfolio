@@ -26,7 +26,7 @@ class MyDocument extends Document {
           <link rel="manifest" href="/favicons/site.webmanifest" />
         </Head>
         <body
-          className="font-poppins font-normal tracking-wide bg-white dark:bg-gray-900 text-gray-700
+          className="font-lato font-normal tracking-wide bg-bodyBg dark:bg-gray-900 text-gray-700
          dark:text-white selection:bg-green selection:text-white dark:selection:bg-mustard"
         >
           <Main />

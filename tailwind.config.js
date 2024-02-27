@@ -27,9 +27,11 @@ module.exports = {
         lightGrey: "#666",
         mustard: "#ffb703",
         offWhite: "#f5f5f5",
+        bodyBg: '#0a192f',
+        highlight: '#ed4855'
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
       },
       boxShadow: {
         "3xl": "inset 0px 1px 4px 0px rgb(0 0 0 / 10%)",

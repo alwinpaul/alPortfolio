@@ -20,35 +20,23 @@ export const skillsData = [
     caption: "Redux",
   },
   {
+    image: "/icons/angular.svg",
+    caption: "Angular",
+  },
+  {
+    image: "/icons/vue.svg",
+    caption: "Vue",
+  },
+  {
     image: "/icons/tailwindcss.svg",
-    caption: "Tailwind CSS",
-  },
-  {
-    image: "/icons/webpack.svg",
-    caption: "Webpack",
-  },
-  {
-    image: "/icons/jest.svg",
-    caption: "Jest",
-  },
-  {
-    image: "/icons/nextjs.svg",
-    caption: "Next.js",
+    caption: "Tailwind",
   },
   {
     image: "/icons/nodejs.svg",
     caption: "Node.js",
   },
   {
-    image: "/icons/react-router.svg",
-    caption: "React Router",
-  },
-  {
     image: "/icons/git.svg",
     caption: "Git",
   },
-  {
-    image: "/icons/linux.svg",
-    caption: "Linux CLI",
-  }
 ];

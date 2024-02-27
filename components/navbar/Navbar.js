@@ -1,8 +1,6 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import Logo from "./Logo.js";
 import NavLinks from "./NavLinks.js";
-import ThemeToggler from "./ThemeToggler.js";
 import MobileLinks from "./MobileLinks.js";
 import BurgerIcon from "./BurgerIcon.js";
 import XIcon from "./XIcon.js";
@@ -14,7 +12,7 @@ export default function Navbar() {
     <div className="h-16">
       <Popover
         as="header"
-        className="z-[100] shadow-4xl bg-white dark:bg-gray-900 fixed w-full dark:shadow-black"
+        className="z-[100] shadow-4xl bg-bodyBg dark:bg-gray-900 fixed w-full dark:shadow-black"
       >
         {({ open, close }) => (
           <>
@@ -70,7 +68,6 @@ export default function Navbar() {
                           {/* mobile links */}
                           <MobileLinks close={close} />
                           <hr className="dark:border-gray-500 pb-3" />
-                          <ThemeToggler />
                         </div>
                       </div>
                     </div>
