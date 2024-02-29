@@ -8,7 +8,7 @@ function Experience() {
     return (
         <section className='pt-32' id="experience_section">
             <div className="text-3xl text-highlight py-3 text-center">My Experience </div>
-            <div className='w-full h-96 flex justify-between p-8'>
+            <div className='w-full h-96 justify-between p-8 hidden md:flex'>
                 <div className='w-4/12'>
                     {expereinceData.map(exp => (
                         <div key={exp.id} className='text-md py-2 flex items-center cursor-pointer' onClick={() => { setActiveElem(exp) }}>
@@ -23,6 +23,14 @@ function Experience() {
                 <div className='w-7/12'>
                     {activeElem.id && <ExperienceCard experience={activeElem} />}
                 </div>
+            </div>
+            <div className='w-full p-2 md:hidden'>
+                {expereinceData.map(exp => (
+                    <div key={exp.id} className='my-16 border-b'>
+                        <ExperienceCard experience={exp} />
+                    </div>
+
+                ))}
             </div>
         </section>
     )

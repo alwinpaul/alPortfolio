@@ -14,10 +14,10 @@ function Hero() {
 
             </div> */}
 
-            <div className="my-52 flex flex-col items-start justify-center">
+            <div className="h-[95vh] flex flex-col items-start justify-center">
                 <div className="text-lg text-slate-200">Hello There, My name is</div>
-                <div className="text-7xl font-bold pt-4 text-highlight">Alwin Abraham</div>
-                <div className="text-5xl font-bold pt-4 text-slate-400">I am a Front-end Developer</div>
+                <div className="text-4xl sm:text-7xl font-bold pt-4 text-highlight">Alwin Abraham</div>
+                <div className="text-3xl sm:text-5xl font-bold pt-4 text-slate-400 ">I am a Front-end Developer</div>
                 <div className="text-lg text-slate-200 pt-4">I love stunning and intuitive web experiences,
                     <br />building them one component at a time.
                 </div>

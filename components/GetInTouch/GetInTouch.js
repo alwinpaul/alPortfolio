@@ -5,12 +5,12 @@ function GetInTouch() {
         <section className='pt-32' id="contact_section">
             <div className="text-sm text-slate-400 py-3 text-center">Need a Web developer? </div>
             <div className="text-3xl text-highlight py-3 text-center">Get in touch </div>
-            <div className='w-full h-32 flex justify-evenly p-8 text-slate-400'>
-                <div className='w-4/12 text-center'>
+            <div className='w-full md:h-32 flex flex-col md:flex-row justify-evenly p-8 text-slate-400'>
+                <div className='md:w-4/12 text-center mb-5'>
                     <div className='text-2xl font-bold'>Location</div>
                     <div className='text-xl'>Toronto, ON. Canada.</div>
                 </div>
-                <div className='w-4/12 text-center'>
+                <div className='md:w-4/12 text-center'>
                     <div className='text-2xl font-bold'>Email</div>
                     <div className='text-xl'>alwinpaul47@gmail.com</div>
                 </div>

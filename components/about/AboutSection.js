@@ -7,14 +7,13 @@ function AboutSection() {
     return (
         <section className='pt-1' id="about_section">
             <div className="text-3xl text-highlight py-3 text-center">About me </div>
-            <div className='w-full h-96 flex justify-centre p-8 text-slate-400'>
-                <div className='w-4/12'>
-                    <div className="w-56 h-56 border border-slate-200 rounded-tl-3xl rounded-br-3xl mr-12 overflow-hidden">
+            <div className='w-full xl:h-96 flex flex-col items-centre xl:flex-row justify-centre p-8 text-slate-400'>
+                <div className='w-full mb-5 sm:w-10/12 xl:w-4/12'>
+                    <div className="w-56 h-56 m-auto border border-slate-200 rounded-tl-3xl rounded-br-3xl mr-12 overflow-hidden">
                         <Image src={alwinImage} alt="Alwin Paul" />
-
                     </div>
                 </div>
-                <div className='w-7/12'>
+                <div className='w-full xl:w-7/12 text-centre'>
                     <p className="mb-6">
                         I&apos;m passionate about leveraging JavaScript technologies such as React, Vue, and Angular to bring digital visions to life.
                     </p>

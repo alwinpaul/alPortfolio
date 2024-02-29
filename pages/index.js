@@ -10,7 +10,7 @@ import AboutSection from "./../components/about/AboutSection.js";
 export default function Home() {
   return (
     <Layout metaTitle="Alwin Paul Abraham: Front-end Developer">
-      <section className="w-8/12 m-auto">
+      <section className="w-10/12 xl:w-8/12 m-auto">
         <Hero />
         <AboutSection />
         <TechBox />
